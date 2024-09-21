@@ -1,6 +1,7 @@
 const ph = {
     nom:(req, res)=>{
-        res.render('index');
+        res.render('index', { teamName: 'MinSU Badminton Team' });
+        
     }
 };
 
